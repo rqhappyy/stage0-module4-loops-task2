@@ -4,14 +4,14 @@ public class PrimeNumbers {
     public static void printPrimeNumbers(int printToInclusive) {
         int i = 1;
         boolean b = true;
-        while(i<=printToInclusive){
-            if(b&&i!=1&&i!=0){
+        while (i <= printToInclusive) {
+            if (b && i != 1 && i != 0) {
                 System.out.println(i);
             }
             int j = 2;
             i++;
-            while (j<i){
-                if(i%j==0){
+            while (j < i) {
+                if (i % j == 0) {
                     b = false;
                     break;
                 }
@@ -19,9 +19,5 @@ public class PrimeNumbers {
                 j++;
             }
         }
-    }
-
-    public static void main(String[] args) {
-        printPrimeNumbers(100);
     }
 }
