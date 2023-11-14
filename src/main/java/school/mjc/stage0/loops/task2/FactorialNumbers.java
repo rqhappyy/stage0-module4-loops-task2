@@ -1,7 +1,7 @@
 package school.mjc.stage0.loops.task2;
 
 public class FactorialNumbers {
-    public static void printFactorialRow(int printToInclusive) {
+    public void printFactorialRow(int printToInclusive) {
         int i = 1;
         int j = 1;
         int k = 1;
